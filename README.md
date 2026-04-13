@@ -15,7 +15,7 @@ The purpose of this chatbot is to educate users about cybersecurity threats such
 - Menu-based chatbot system
 - 25+ cybersecurity questions and answers
 - Solutions and prevention tips included
-- Enhanced console UI (colours and borders)
+- Enhanced console UI
 - Input validation for invalid or empty entries
 - Continuous interaction until user exits
 
@@ -60,7 +60,7 @@ This project uses GitHub for version control and includes a Continuous Integrati
 
 Watch the full demonstration here:
 
-https://your-video-link-here
+(https://youtu.be/7KL6YPj99bo?si=iNrSqTZmwLjAYppl)
 
 ---
 
