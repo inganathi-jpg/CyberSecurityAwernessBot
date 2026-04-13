@@ -52,7 +52,7 @@ This project uses GitHub for version control and includes a Continuous Integrati
 
 ## CI Build Status
 
-![CI Screenshot](ci-success.png)
+![CI Screenshot](https://github.com/inganathi-jpg/CyberSecurityAwernessBot/blob/master/images/Screenshot%202026-04-13%20151930.png)
 
 ---
 
