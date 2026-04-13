@@ -1,75 +1,100 @@
 # Cybersecurity Awareness Chatbot
 
 ## Project Overview
-This project is a C# console-based Cybersecurity Awareness Chatbot developed as part of PROG6221.
+This project is a C# Console Application developed using Microsoft Visual Studio.
 
-The chatbot is designed to educate South African users about common cybersecurity threats such as phishing, password attacks, and unsafe browsing practices.
+The purpose of this chatbot is to educate users about cybersecurity threats such as phishing, password attacks, and unsafe browsing practices. The chatbot interacts with users through a structured menu system and provides both explanations and solutions for each topic.
 
 ---
 
 ## Features
+
 - Voice greeting using a WAV file
-- ASCII art logo display
-- User name input and personalised interaction
-- Cybersecurity awareness responses
-- Input validation for incorrect or empty input
-- Console UI with colours and borders
+- ASCII art logo displayed in the console
+- User input and personalised interaction
+- Menu-based chatbot system
+- 25+ cybersecurity questions and answers
+- Solutions and prevention tips included
+- Enhanced console UI (colours and borders)
+- Input validation for invalid or empty entries
+- Continuous interaction until user exits
 
 ---
 
 ## Topics Covered
-The chatbot provides information and solutions on:
-- What is cybersecurity
-- Phishing scams and prevention
+
+- General chatbot questions
+- Phishing attacks
 - Password safety
-- Safe browsing practices
-- General online safety tips
+- Safe browsing
+- Cybersecurity basics
 
 ---
 
 ## How to Run the Program
-1. Open the project in Microsoft Visual Studio
-2. Build the solution
-3. Run the program 
+
+1. Open the project in Microsoft Visual Studio  
+2. Ensure the `greeting.wav` file is inside the Assets folder  
+3. Build the project  
+4. Run the application (Press F5)  
 
 ---
 
-## Project Structure
-- Program.cs → Main entry point
-- ChatBot.cs → Chat logic and responses
-- UserInteraction.cs → Handles user input
-- ASCIIArt.cs → Displays logo
-- AudioPlayer.cs → Plays greeting sound
-- ConsoleUI.cs → Handles UI formatting
+## GitHub and CI Integration
+
+This project uses GitHub for version control and includes a Continuous Integration (CI) workflow using GitHub Actions.
+
+- Multiple commits were made to track progress  
+- The CI workflow automatically builds the project  
+- A successful build shows a green check mark  
 
 ---
 
-## Requirements
-- Visual Studio 2026
-- .NET installed
-- WAV file (greeting.wav) placed in Assets folder
+## CI Build Status
 
----
-
-## GitHub & CI
-This project is managed using GitHub with multiple commits showing development progress.
-
-A Continuous Integration  workflow is implemented using GitHub Actions to ensure the project builds successfully.
+![CI Screenshot](ci-success.png)
 
 ---
 
 ## Video Presentation
-A video demonstration of the project is included, explaining:
-- Code structure
-- Features
-- Program execution
+
+Watch the full demonstration here:
+
+https://your-video-link-here
+
+---
+
+## Technologies Used
+
+- C#
+- .NET
+- Microsoft Visual Studio
+- GitHub
+- GitHub Actions
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+- Console application development  
+- User input handling and validation  
+- Modular programming using classes  
+- Basic cybersecurity awareness concepts  
+- Version control using GitHub  
+- CI/CD using GitHub Actions  
 
 ---
 
 ## Author
-Student Name: inganathi mancam
+
+inganathi mancam
 
 ---
 
 ## Notes
-This project was developed following assignment instructions and lecturer guidelines, including enhanced UI design and structured code.
+
+- The chatbot is designed for educational purposes  
+- Users can type `exit` to close the application  
+
+
